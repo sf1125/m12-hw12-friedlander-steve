@@ -2,32 +2,45 @@
 <html>
 <body>
 
-<h2>JavaScript Array Sort</h2>
 
-
-<button onclick="myFunction()">Try it</button>
-
-<p id="demo"></p>
-
-<script>
-    const phrase = ["Hello there", 
-                    "How are you today?",
-                    "I'm fne, thanks",
-                    "How about yourself?",
-                    "I'm doing fine myself",
-                    "Thanks for asking",
-                    "What is your favorite food?",
-                    "I really miss NY pizza",
-                    "The summer is very hot in Florida" ];
+  <!DOCTYPE html>
+  <html lang="en">
+  
+  <head>
+  
+    <meta charset="utf-8">
+  
+    <meta name="robots" content="noindex" />
+  
+    <title>M12-HW12-Friedlander-Steve</title>
+  
     
-                    
-    document.getElementById("demo").innerHTML = phrase;
+    <link type="text/css" rel="stylesheet" href="main.css" />
+  
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+    <!--[if lt IE 9]>
+        <script src="js/html5shiv-printshiv.min.js"></script>
+      <![endif]-->
     
-    function myFunction() {
-      phrase.sort();
-      document.getElementById("demo").innerHTML = phrase;
-    }
-    </script>
+  </head>
+  
+  <body>
+    
+
+    <div class="video-container">
+      <video autoplay muted loop>
+        <source src="https://i.imgur.com/cLEzWIh.mp4" type="video/mp4">
+      </video>
+      <div class="video-text">
+        <h2>JavaScript Array Sort</h2>
+    <button class = "btn" onclick="myFunction()">Click Here</button>
+    
+    <p id="demo"></p>
+      </div>
+    </div>
+
+<script src="main.js"></script>
     
     </body>
     </html>

@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+  }
+  body, html {
+    margin: 0;
+    height: 100%;
+    font-Family: Arial;
+  }
+  
+  .video-container {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+  .video-container video {
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    left:50%;
+    min-width: 100%;
+    min-height: 100%;
+    transform: translate(-50%, -50%);
+  }
+  .video-text {
+    z-index: 2; 
+    color: #fff;
+    text-align: center;
+  }
+  .video-text h1, .video-text h2  {
+    margin: 0;
+    font-size: 3rem;
+  }
+  .video-text h2  {
+    font-size: 2.4rem;
+    font-weight: normal;
+    opacity: 0.6;
+    padding-bottom: 25px;
+  }
+  
+  .page-content {
+    line-height: 1.4rem;
+    padding: 2rem;
+  }
+  
+p {
+    font-size: 2rem;
+}
+
+.btn {
+    width: 125px;
+    height: 35px;
+    font-size: 1rem;
+}
